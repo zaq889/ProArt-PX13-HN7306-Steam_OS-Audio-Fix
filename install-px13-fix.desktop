@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Install PX13 Audio Fix
+Name[zh_CN]=安装 PX13 音频修复
+Comment=Install ASUS ProArt PX13 speaker / Wi-Fi fixes
+Exec=sh -c 'pkexec "$(dirname "$1")/run-px13-fix.sh"' sh %k
+Icon=utilities-terminal
+Terminal=true
+Categories=System;Settings;
